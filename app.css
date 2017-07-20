@@ -1,0 +1,300 @@
+/*Déclaration Police Personnalisée : sambaregular*/
+
+@font-face  {
+	font-family: 'sambaregular'; 
+		src: url('polices/samba/Samba-webfont.eot');  
+		src: url('polices/samba/Samba-webfont.eot?#iefix') format('embedded-opentype'),      
+		url('polices/samba/Samba-webfont.woff') format('woff'),      
+		url('polices/samba/Samba-webfont.ttf') format('truetype'),      
+		url('polices/samba/Samba-webfont.svg#sambaregular') format('svg');
+}
+
+
+/*Déclaration Police Personnalisée : ubuntu_titlingbold*/
+
+@font-face {
+    font-family: 'ubuntu_titlingbold';
+	src: url('polices/ubuntu/UbuntuTitling-Bold-webfont.eot');
+	src: url('polices/ubuntu/UbuntuTitling-Bold-webfont.eot?#iefix') format('embedded-opentype'),       
+	url('polices/ubuntu/UbuntuTitling-Bold-webfont.woff') format('woff'),      
+	url('polices/ubuntu/UbuntuTitling-Bold-webfont.ttf') format('truetype'),       
+	url('polices/ubuntu/UbuntuTitling-Bold-webfont.svg#ubuntu_titlingbold') format('svg');
+}
+
+/*--En Tête--*/
+
+#logo{
+    float:left;  
+}
+
+h1{
+    font-family: 'sambaregular', 'ubuntu_titlingbold', helvetica, serif;
+	font-size: 3em;
+	color:rgb(104,166,193);
+	text-align:center;
+	height : 80px;
+	border: 2px red solid;
+    border-radius: 5px;
+	box-shadow : 10px 10px 25px yellow inset;
+	margin : 10px 0 5px 0;
+    padding-bottom: 15px;      
+}
+
+
+/*Portail d'Affaires Internationales*/
+
+.titre {
+   padding-top: 5px; 
+}
+
+
+/* Barre Bouton*/
+
+#barboutons {
+    border:1px solid seagreen;
+    height: 45px;  
+    box-shadow : 0px 0px 25px seagreen inset; 
+    padding-top: 5px;
+    /*border-radius: 5px;*/
+}
+
+
+/* Boutons*/
+
+[class="button small"]{
+    color: yellow;
+    font-weight: bold;
+    margin-left:10px;
+    background-color: #5F9FA0;
+    border:1px solid green;
+    border-radius: 3px;   
+}
+
+/* Bloc Login */
+
+.log-in-form {
+	  border: 1px solid #cacaca;
+	  padding: 1rem;
+	  border-radius: 3px;
+	 }
+
+/*onglets*/
+
+.menu {  
+    margin: 5px 0 25px 0;
+    color:white;
+}
+
+.menu > li{  
+    vertical-align: middle;
+    background-color:teal;
+    text-align: center;
+    color: yellow;
+    font-size: .75rem;
+    font-weight: bold;
+    border:1px solid white;
+    border-radius: 10px 10px 0 0;
+}
+
+a{  
+    color: white;
+}
+
+
+/*Header Agenda*/
+
+.headagen {
+    background-color: rgb(240 240 240);
+	font-family: helvetica, vernada, arial, serif;
+	color:green;
+    font-weight: bold;
+    text-align: center;
+	font-size: 1em;
+    border-top: 0;
+	border: 2px gray solid; 
+    border-radius: 5px;  
+    margin: 3px 0 3px 0;
+}
+
+/* Page Agenda*/
+.agenda {
+	font-family: helvetica, vernada, arial, serif;
+	color:blue;
+    font-weight: bold;
+    text-align: left;
+	font-size: .9em;
+	padding-top: 5px;
+
+	border: 2px gray solid; 
+    border-radius: 5px;
+    height: 280px;
+	padding-left: 5px;
+    background-color: rgb(255 255 237); 
+}
+
+/*Header Informations Utiles*/
+
+.headinfo {
+    background-color: rgb(240 240 240);
+	font-family: helvetica, vernada, arial, serif;
+	color:green;
+    font-weight: bold;
+    text-align: center;
+	font-size: 1em;
+    border-top: 0;
+	width: auto;
+	border: 2px gray solid; 
+    border-radius: 5px;  
+    margin: 10px 0 2px 0;
+    
+}
+
+/* Page Information Utiles*/
+
+.info {
+	font-family: helvetica, vernada, arial, serif;
+	color:blue;
+    font-weight: bold;
+    text-align: left;
+	font-size: .9em;
+	padding-top: 5px;
+	width: auto;
+	border: 2px gray solid; 
+    border-radius: 5px;
+    height: 285px;
+    
+	padding-left: 5px;
+    background-color: rgb(255 255 237);	
+    
+}
+
+.joxko{
+    color: blue;
+}
+
+.tirets{
+	color: red;
+}
+
+#gauche{   
+    height: 640px;
+    width: 20%;
+    padding: 0px 2px;
+}
+
+#centre{   
+    width: 60%;    
+    height: 640px;
+    text-align: justify;
+    background: #FEFEFE;
+    border: 2px gray solid;
+    font-family: helvetica, vernada, arial, serif;
+	font-size: 1.1em;
+	color: #003366;
+	padding: 5px;
+    margin-top: 4px;
+    
+  
+}
+
+#droite{ 
+    height: 640px;
+    width: 20%;
+    padding: 0 0 0 2px;
+    
+}
+
+/*Header nécrologique*/
+
+.headnecro {
+    background-color: rgb(240 240 240);
+	font-family: helvetica, vernada, arial, serif;
+	color:#A40000;
+    text-shadow : 2px 2px 2px #A40000;
+    font-weight: bold;
+    text-align: center;
+	font-size: 1em;
+    border-top: 0;
+	width: auto;
+	border: 2px gray solid; 
+    border-radius: 5px;  
+    margin: 3px 0 3px 0; 
+}
+
+.imnecro{
+    text-align: center;
+    padding-bottom: 2px;
+}
+
+.deces{
+    color:darkgoldenrod;
+    padding-top: 2px;
+    display:block;
+    margin-top: 1px;
+}
+
+.autres{
+    text-decoration: underline;
+    color:#A40000;
+}
+
+/* Page nécrologique*/
+
+.necrojour {
+	font-family: helvetica, vernada, arial, serif;
+	color:darkviolet;
+    font-weight: bold;
+    text-align: left;
+	font-size: .9em;
+	padding-top: 5px;
+	border: 2px gray solid; 
+    border-radius: 5px;
+    height: 285px;
+    box-shadow : 5px 5px 25px 25px rgb(208 208 208) inset;
+	padding-left: 5px;
+    background-color: white; 
+}
+
+/*Header Communiqués*/
+
+.headcom {
+    background-color: rgb(240 240 240);
+	font-family: helvetica, vernada, arial, serif;
+	color:green;
+    font-weight: bold;
+    text-align: center;
+	font-size: 1em;	
+	border: 2px gray solid; 
+    border-radius: 5px;  
+    margin: 10px 0 2px 0;
+}
+
+/* Page nécrologique*/
+
+.comunic {
+	font-family: helvetica, vernada, arial, serif;
+	color:blue;
+    font-weight: bold;
+    text-align: left;
+	font-size: .9em;
+	padding-top: 5px;
+	border: 2px gray solid; 
+    border-radius: 5px;
+    height: 285px;
+	padding-left: 5px;
+    background-color: rgb(255, 255, 237); 
+}
+
+/* Pied de page*/
+
+footer{
+    color: red;
+    
+    border: 2px solid green;
+    border-radius: 5px;
+    line-height: 25px;
+    text-align: center;
+    box-shadow : 10px 10px 25px green inset;
+    margin: 5px 0 5px 0;
+}
+
